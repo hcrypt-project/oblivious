@@ -8,7 +8,7 @@ A growing number of compute and data storage jobs is performed on remote resourc
 
 Currently the runtime properties of the shapeCPU are very slow due to the underlying homomorphic cryptographic operations. We hope this open source project can serve as a foundation to actively encourage research and participation into optimizing both the cryptographic performance as well as the CPU performance. If you are interested in collaborating with us please drop us a line.
 
-The C implementation is currently limited to memory access and a rudimentary control unit. Our Java implementation comprises the reference runtime environment for an encrypted program and an assembler to generate the encrypted machine code. However, the Java version does not encrypt but feel free to interface with libScarab via JNI. Find the source code on github under hcrypt-project/obliviousJ.
+The C implementation is currently limited to memory access and a rudimentary control unit. Our Java implementation comprises the reference runtime environment for an encrypted program and an assembler skeleton to generate the encrypted machine code. However, the Java version does not encrypt but feel free to interface with libScarab via JNI. Find the source code on github under hcrypt-project/obliviousJ.
 
 References
 ==========
