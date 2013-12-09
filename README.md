@@ -11,13 +11,19 @@ Currently the runtime properties of the shapeCPU are very slow due to the underl
 References
 ==========
 
-    M. Brenner, J. Wiebelitz, G. v. Voigt, M. Smith, Secret Program Execution in the Cloud applying Homomorphic Encryption, Proceedings of the 5th IEEE International Conference on Digital Ecosystems and Technologies (IEEE DEST 2011)
-    M. Brenner, J. Wiebelitz, G. v. Voigt, M. Smith, A Smart-Gentry based Software System for Secret Program Execution, Proceedings of the 6th International Conference on Security and Cryptography (SECRYPT 2011)
-    H. Perl, M. Brenner, M. Smith, POSTER: An Implementation of the Fully Homomorphic Smart-Vercauteren Crypto-System, Proceedings of the 18th ACM Conference on Computer and Communications Security (ACM CCS 2011)
-    H. Perl, Y. Mohammed, M. Brenner, M. Smith, Fast Confidential Search for Bio-Medical Data Using Bloom Filters and Homomorphic Cryptography,Proceedings of the 8th IEEE International Conference on eScience (IEEE eScience 2012)
-    M. Brenner, H. Perl, M. Smith, Practical Applications of Homomorphic Encryption,Proceedings of the 7th International Conference on Security and Cryptography (SECRYPT 2012)
-    M. Brenner, H. Perl, M. Smith, How Practical is Homomorphically Encrypted Program Execution? An Implementation and Performance Evaluation,11th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom-2012)
-    M. Brenner, M. Smith, POSTER: Caching Oblivious Memory Access under Fully Homomorphic Encryption, Proceedings of the 20th ACM Conference on Computer and Communications Security (ACM CCS 2013)
+[1] M. Brenner, J. Wiebelitz, G. v. Voigt, M. Smith, Secret Program Execution in the Cloud applying Homomorphic Encryption, Proceedings of the 5th IEEE International Conference on Digital Ecosystems and Technologies (IEEE DEST 2011)
+
+[2] M. Brenner, J. Wiebelitz, G. v. Voigt, M. Smith, A Smart-Gentry based Software System for Secret Program Execution, Proceedings of the 6th International Conference on Security and Cryptography (SECRYPT 2011)
+
+[3] H. Perl, M. Brenner, M. Smith, POSTER: An Implementation of the Fully Homomorphic Smart-Vercauteren Crypto-System, Proceedings of the 18th ACM Conference on Computer and Communications Security (ACM CCS 2011)
+
+[4] H. Perl, Y. Mohammed, M. Brenner, M. Smith, Fast Confidential Search for Bio-Medical Data Using Bloom Filters and Homomorphic Cryptography,Proceedings of the 8th IEEE International Conference on eScience (IEEE eScience 2012)
+
+[5] M. Brenner, H. Perl, M. Smith, Practical Applications of Homomorphic Encryption,Proceedings of the 7th International Conference on Security and Cryptography (SECRYPT 2012)
+
+[6] M. Brenner, H. Perl, M. Smith, How Practical is Homomorphically Encrypted Program Execution? An Implementation and Performance Evaluation,11th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom-2012)
+
+[7] M. Brenner, M. Smith, POSTER: Caching Oblivious Memory Access under Fully Homomorphic Encryption, Proceedings of the 20th ACM Conference on Computer and Communications Security (ACM CCS 2013)
 
 License
 =======
