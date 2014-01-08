@@ -8,7 +8,7 @@
 #ifndef CRYPTO_H_
 #define CRYPTO_H_
 
-#include <integer-fhe.h>
+#include "integer-fhe.h"
 
 void crypto_xor(mpz_t into,mpz_t a,mpz_t b,fhe_pk_t pk);
 

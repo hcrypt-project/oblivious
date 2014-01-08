@@ -63,7 +63,7 @@ void fhe_pk_store(fhe_pk_t pk,char *s)
 	gmp_fprintf(f,"%Zd\n",pk->p);
 	gmp_fprintf(f,"%Zd\n",pk->alpha);
 
-	for (int i = 0; i < S1; i++)
+	for (int i = 0; i < FHE_S1; i++)
 	{
 		gmp_fprintf(f,"%Zd\n%Zd\n", pk->c[i], pk->B[i]);
 	}
@@ -88,7 +88,7 @@ int fhe_pk_load(fhe_pk_t pk,char *filename)
 	fgets(line,16384,f); //alpha
 	mpz_set_str(pk->alpha,line,10);
 
-	for(i=0;i<S1;i++)
+	for(i=0;i<FHE_S1;i++)
 	{
 		fgets(line,16384,f);
 		mpz_set_str(pk->c[i],line,10);

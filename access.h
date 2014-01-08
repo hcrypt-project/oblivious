@@ -9,11 +9,11 @@
 #define ACCESS_H_
 
 #include "kit.h"
-#include <integer-fhe.h>
+#include "integer-fhe.h"
 #include <stdio.h>
 #include <time.h>
 
-#define RUNS 100
+#define RUNS 10
 #define WORD_SIZE 11
 #define DATA_BITS 8
 #define ADR_BITS 5

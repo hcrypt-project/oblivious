@@ -61,7 +61,8 @@ int main(int argc,char **argv)
 	//test_search(pk,sk);
 	//test_rec(pk,sk);
 	//test_cu(pk,sk);
-	test_access_par(globalpk,globalsk);
+	//test_access_par(globalpk,globalsk);
+	test_access(globalpk,globalsk);
 	//test_alu3(pk,sk);
 /*
 	fhe_sk_clear(sk);
@@ -364,6 +365,7 @@ int test_access(fhe_pk_t pk,fhe_sk_t sk)
 	//fhe_int_t rw;
 	clock_t timer=0;
 
+	puts("test_access");
 	//fhe_int_init(rw);
 
 	access_init(ROWS,WORD_SIZE,pk);
@@ -392,14 +394,15 @@ int test_access(fhe_pk_t pk,fhe_sk_t sk)
 	//printf("bit size=%ld\n",mpz_sizeinbase((&data[0])->mpz,2));
 	//printf("memory size=%ld\n",mpz_sizeinbase((&data[0])->mpz,2)*ROWS*WORD_SIZE/8192);
 
-	//accessw(adr,data,pk);
-	for(int i=0;i<RUNS;i++)
+	accessw(adr,data,pk,sk);
+	for(int i=0;i<10;i++)
 	{
 		printf("RUN%d ",i);
 
-		timer+=accessw(adr,data,pk,sk);
-
-		printf("\n");
+		//timer+=accessw(adr,data,pk,sk);
+		timer+=accessr(adr,data,pk,sk);
+		printf("AC:");trans_print(data,WORD_SIZE,sk);printf("\n");
+		//printf("\n");
 
 	}
 	printf("avg clock=%ld\n",timer/CLOCKS_PER_SEC/RUNS);

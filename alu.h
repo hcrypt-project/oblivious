@@ -11,7 +11,7 @@
 #include "kit.h"
 #include "access.h"
 #include "trans.h"
-#include <integer-fhe.h>
+#include "integer-fhe.h"
 #include <time.h>
 
 #define OPCODE_OR 0

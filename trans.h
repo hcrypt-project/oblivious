@@ -10,7 +10,7 @@
 
 #include "access.h"
 #include "kit.h"
-#include <integer-fhe.h>
+#include "integer-fhe.h"
 
 void trans_int2adr(int i,_fhe_int *adr,fhe_pk_t pk);
 
