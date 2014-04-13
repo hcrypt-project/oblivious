@@ -10,7 +10,7 @@ Currently the runtime properties of the shapeCPU are very slow due to the underl
 
 The C implementation is currently limited to memory access and a rudimentary control unit. Our Java implementation comprises the reference runtime environment for an encrypted program and an assembler skeleton to generate the encrypted machine code. However, the Java version does not encrypt but feel free to interface with libScarab via JNI. Find the source code on github under hcrypt-project/obliviousJ.
 
-I'm currently converting the Java-based control unit and the loader to C. Should be ready during Jan-2014.
+I'm currently converting the Java-based control unit and the loader to C. Should be ready during Jan-2014 (edit April-13: didn't have the time so far, hold on)
 
 References
 ==========
